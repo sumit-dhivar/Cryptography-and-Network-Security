@@ -23,7 +23,7 @@ def decrypt(text,s):
 
         else:
             result += chr((ord(char) - s - 97) % 26 + 97)
-
+            
     return result
 #check the above function
 text = input("Enter the text:-")
