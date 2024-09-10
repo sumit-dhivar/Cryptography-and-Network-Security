@@ -65,7 +65,7 @@ def encrypt(plaintext, key):
     return ciphertext
 
 # Example usage
-plaintext = "Hide the gold in the tree stump"
-key = "PLAYFAIREXAMPLE"
+plaintext = "Save Water"
+key = "Drink"
 ciphertext = encrypt(plaintext, key)
 print(ciphertext)
