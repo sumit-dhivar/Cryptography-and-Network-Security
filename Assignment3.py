@@ -1,3 +1,4 @@
+#Implement Playfair Cipher
 def generate_table(key):
     # Create a 5x5 grid of letters
     table = []
@@ -65,7 +66,7 @@ def encrypt(plaintext, key):
     return ciphertext
 
 # Example usage
-plaintext = "Save Water"
-key = "Drink"
+plaintext = "hello"
+key = "god"
 ciphertext = encrypt(plaintext, key)
 print(ciphertext)

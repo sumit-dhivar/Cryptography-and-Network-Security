@@ -1,3 +1,4 @@
+# implementation of polyalphabetic cipher
 def generate_key(msg, key):
     key = list(key)
     if len(msg) == len(key):

@@ -32,8 +32,8 @@ def HillCipher(message, key):
 
 	print("Ciphertext: ", "".join(CipherText))
 
-message = "ACT"
-key = "GYBNQKURP"
+message = "pdb"
+key = "ASDFLKJHG"
 
 HillCipher(message, key)
 
